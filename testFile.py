@@ -3,7 +3,7 @@
 ##   Convert Fahrenheit degrees to Celsius based on user input
 
 temperature = float(input())
-print("Enter temperature: ")
+print("Enter temperature now: ")
 c = (temperature - 32)*5/9
 round(c,1)
 print("The temperature is %.1f" % c )
@@ -21,3 +21,5 @@ else:
    print("Too hot")
    import datetime as dt
    print(dt.datetime.now ())
+
+#mai 
